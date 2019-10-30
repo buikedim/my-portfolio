@@ -316,7 +316,7 @@ background:white;
 		font-size: 3.5rem;
 	}
 	.section-one{
-		margin-top: 2rem;
+		margin-top: 1rem;
 		padding-left: 10%;
 	}
 	.header1, #blurb{
@@ -331,7 +331,7 @@ background:white;
 	}
 	.social-icons-main{
 		position: fixed;
-		margin-top: 7rem;
+		margin-top: 6rem;
 	}
 /*.btn-custom{
 display: none;
