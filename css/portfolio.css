@@ -4,6 +4,9 @@ html, body{
 	color: rgb(255,255,255);
 	height: 100%;
 }
+.move{
+	padding-left: 5%;
+}
 .header1{
 font-family: 'Noto Serif', sans-serif;
 	font-weight: bold;
@@ -12,11 +15,13 @@ font-family: 'Noto Serif', sans-serif;
 	line-height: 1;
 	margin-top: 80px;
 	margin-bottom: 20px;
+	padding-left:5%;
 }
 
 ul{
 	margin-left: -50px;
 	background-color: rgb(0, 0, 50);
+	line-height: 2;
 }
 .projectsh1, .experienceh1, .contacth1{
 	font-family: 'Noto Serif', serif;
@@ -30,6 +35,8 @@ ul{
 	font-family: 'Montserrat', serif;
 	font-size: 28px;
 	line-height: 1.2;
+	padding-left: 5%;
+	padding-right:10%;
 }
 .rotate{
 	margin-top: 20rem;
@@ -296,12 +303,16 @@ background:white;
 	.headline{
 		margin-top: -10px;
 	}
-	
+
 	.headline p{
 		font-size: 3.5rem;
 	}
 	.section-one{
 		margin-top: 2rem;
+		padding-left: 10%;
+	}
+	.header1, #blurb{
+		padding-left: 0;
 	}
 	p{
 		font-size: 14px;
