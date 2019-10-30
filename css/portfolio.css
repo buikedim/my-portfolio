@@ -3,9 +3,14 @@ html, body{
 	background-color:rgb(0, 0, 50);
 	color: rgb(255,255,255);
 	height: 100%;
+	overflow-x:hidden;
+}
+body{
+	position: relative;
 }
 .move{
 	padding-left: 2%;
+	padding-right: 5%;
 }
 .header1{
 font-family: 'Noto Serif', sans-serif;
@@ -66,6 +71,9 @@ margin-left: -12px;
 width: auto;
 position:fixed;
 z-index: 1;
+}
+#contact{
+	margin-bottom: 100px;
 }
 .projects{
 /*margin-top: -7.5rem;
@@ -272,7 +280,7 @@ background:white;
 		margin-left: -50px;
 	}
 	.header1{
-		font-size: 70px;
+		font-size: 65px;
 	}
 	.work li, .education li, .tools li{
 		font-size: 14px;
@@ -312,7 +320,7 @@ background:white;
 		padding-left: 10%;
 	}
 	.header1, #blurb{
-		padding-left: 0;
+		padding-right: 5%;
 	}
 	p{
 		font-size: 14px;
