@@ -18,11 +18,13 @@ ul{
 	margin-left: -50px;
 	background-color: rgb(0, 0, 50);
 }
-.projectsh1, .experienceh1{
+.projectsh1, .experienceh1, .contacth1{
 	font-family: 'Noto Serif', serif;
 	font-size: 50px;
 	margin-bottom: 20px;
+	margin-top: 40px;
 }
+
 
 #blurb{
 	font-family: 'Montserrat', serif;
@@ -41,9 +43,22 @@ h6{
 	font-size: 12px;
 	font-weight: 400;
 }
-.work li{
+.work li, .education li, .tools li{
 	list-style-type: none;
 	font-weight: lighter;
+}
+.contact{
+	-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+transform: rotate(-90deg);
+float: left;
+margin-top: 240px;
+margin-left: -12px;
+width: auto;
+position:fixed;
+z-index: 1;
 }
 .projects{
 /*margin-top: -7.5rem;
@@ -55,7 +70,7 @@ margin-right: 15rem;*/
 transform: rotate(-90deg);
 float: left;
 margin-top: 20px;
-margin-left: -22px;
+margin-left: -15px;
 width: auto;
 position:fixed;
 z-index: 1;
@@ -67,7 +82,7 @@ z-index: 1;
 	-o-transform: rotate(-90deg);
 	transform: rotate(-90deg);
 	float: left;
-	margin-left: -29px;
+	margin-left: -22px;
 	margin-top: 8rem;
 	width: auto;
 	position:fixed;
@@ -115,9 +130,9 @@ margin-bottom: 100px;
 main{
 	font-family: 'Montserrat', sans-serif;
 }
-p{
+/* p{
 	font-size: 1.7rem;
-}
+} */
 .headline{
 	margin-top: 20px;
 }
@@ -252,6 +267,9 @@ background:white;
 	.header1{
 		font-size: 70px;
 	}
+	.work li, .education li, .tools li{
+		font-size: 14px;
+	}
 }
 @media screen and (max-width: 249px){
 	.section-one div{
@@ -278,16 +296,15 @@ background:white;
 	.headline{
 		margin-top: -10px;
 	}
-	#blurb{
-	}
+	
 	.headline p{
 		font-size: 3.5rem;
 	}
 	.section-one{
-		margin-top: 5rem;
+		margin-top: 2rem;
 	}
 	p{
-		font-size: 16px;
+		font-size: 14px;
 		margin-top: 0;
 	}
 	h6{
@@ -295,7 +312,7 @@ background:white;
 	}
 	.social-icons-main{
 		position: fixed;
-		margin-top: 12rem;
+		margin-top: 7rem;
 	}
 /*.btn-custom{
 display: none;
@@ -309,7 +326,11 @@ display: none;
 }
 .experience{
 	margin-left: -23px;
-	margin-top: 110px;
+	margin-top: 113px;
+}
+.contact{
+	margin-left: -13px;
+	margin-top: 204px;
 }
 }
 @media screen and  (min-width: 499px) and (max-width: 750px){
