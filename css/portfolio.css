@@ -13,7 +13,7 @@ body{
 	padding-right: 5%;
 }
 .header1{
-font-family: 'Noto Serif', sans-serif;
+font-family: 'Lora', sans-serif;
 	font-weight: bold;
 
 	font-size: 75px;
@@ -29,7 +29,7 @@ ul{
 	line-height: 2;
 }
 .projectsh1, .experienceh1, .contacth1{
-	font-family: 'Noto Serif', serif;
+	font-family: 'Lora', serif;
 	font-size: 50px;
 	margin-bottom: 20px;
 	margin-top: 40px;
@@ -37,7 +37,7 @@ ul{
 
 
 #blurb{
-	font-family: 'Montserrat', serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 28px;
 	line-height: 1.2;
 	padding-left: 2%;
