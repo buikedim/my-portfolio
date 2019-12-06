@@ -7,23 +7,55 @@ html, body{
 }
 body{
     position: relative;
-
+    padding-bottom: 50px;
 }
+
+
 img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 .headtitle{
     font-family: "Lora", serif;
     font-weight: bold;
     font-size: 50px;
-     margin-left: 10%;
+     margin-left: 8%;
      margin-top: 80px;
      margin-bottom: 20px;
 }
+svg{
+    margin-right: 20px;
+}
+li{
+    list-style-type: none;
+}
+.firstfont{
+    font-family: "Baskervville", serif;
+}
+.secondfont{
+    font-family: "Poppins", sans-serif;
+}
+.secondfont ul{
+    padding: 0;
+}
+.secondfont ul li{
+    margin-bottom: 16px;
+}
+.color, .colordetails{
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+}
+.colorblock{
+    margin: 16px 0 16px 0;
+}
+.colorname{
+    font-weight: bold;
+    text-transform: capitalize;
+}
 .brief{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     margin-bottom: 50px;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
@@ -40,27 +72,58 @@ margin-top: 10px;
     font-family: "Source Serif", sans-serif;
     font-size: 14px;
 }
-hr{
+h5{
+    margin-left: 8%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.mainhr{
     margin-top: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     width: auto;
     background-color: rgb(255, 160, 0);
     height: 16px;
 }
-
+hr{
+    margin-left: 8%;
+    margin-right: 8%;
+    width: auto;
+    margin-bottom: 26px;;
+}
+.row{
+    margin-left: 6%;
+    margin-right: 6%;
+}
 .more{
     margin-top: 60px;
-    margin-right: 15%;
 }
-
+.styleguide h6{
+    text-transform: uppercase;
+}
 .subtitle{
     font-family: "Lora", serif;
     font-weight: bold;
     font-size: 40px;
-     margin-left: 10%;
+     margin-left: 8%;
      margin-top: 80px;
      margin-bottom: 20px;
 }
+
+.screenname{
+    margin-left: 2.5%;
 }
 
+/* Smartphones (landscape) ----------- */
+@media screen and (max-width : 360px) {
+    .row{
+       margin-left: 6px;
+       margin-right: 6px;
+    }
+
+    .screenname{
+        margin-top: 30px;
+    }
+
+    }
