@@ -11,6 +11,7 @@ body{
 }
 
 
+
 img{
     width: 100%;
     height: auto;
@@ -84,7 +85,7 @@ h5{
     margin-right: 8%;
     width: auto;
     background-color: rgb(255, 160, 0);
-    height: 16px;
+    height: 12px;
 }
 hr{
     margin-left: 8%;
