@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charles Dim- UI/UX Designer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/project.css">
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="../assets\favicon-32x32.png">
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="assets\favicon-16x16.png">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap" rel="stylesheet">
+    
+    <!-- Fonts used in project -->
+    <style type="text/css">
+        @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/849347/000000000000000000010093/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/849347/000000000000000000010093/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/2cd6bf/00000000000000000001008f/27/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/1eb35a/000000000000000000010090/27/l?subset_id=2&fvd=i5&v=3) format("woff2"),url(https://use.typekit.net/af/1eb35a/000000000000000000010090/27/d?subset_id=2&fvd=i5&v=3) format("woff"),url(https://use.typekit.net/af/1eb35a/000000000000000000010090/27/a?subset_id=2&fvd=i5&v=3) format("opentype");font-weight:500;font-style:italic;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/eb729a/000000000000000000010092/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/0c71d1/000000000000000000010097/27/l?subset_id=2&fvd=n8&v=3) format("woff2"),url(https://use.typekit.net/af/0c71d1/000000000000000000010097/27/d?subset_id=2&fvd=n8&v=3) format("woff"),url(https://use.typekit.net/af/0c71d1/000000000000000000010097/27/a?subset_id=2&fvd=n8&v=3) format("opentype");font-weight:800;font-style:normal;}@font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/648f69/000000000000000000010098/27/l?subset_id=2&fvd=i8&v=3) format("woff2"),url(https://use.typekit.net/af/648f69/000000000000000000010098/27/d?subset_id=2&fvd=i8&v=3) format("woff"),url(https://use.typekit.net/af/648f69/000000000000000000010098/27/a?subset_id=2&fvd=i8&v=3) format("opentype");font-weight:800;font-style:italic;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/l?subset_id=2&fvd=i3&v=3) format("woff2"),url(https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/d?subset_id=2&fvd=i3&v=3) format("woff"),url(https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/a?subset_id=2&fvd=i3&v=3) format("opentype");font-weight:300;font-style:italic;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/e32ad9/00000000000000003b9b12fb/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/e32ad9/00000000000000003b9b12fb/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/e32ad9/00000000000000003b9b12fb/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:europa;src:url(https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/l?subset_id=2&fvd=i7&v=3) format("woff2"),url(https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/d?subset_id=2&fvd=i7&v=3) format("woff"),url(https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/a?subset_id=2&fvd=i7&v=3) format("opentype");font-weight:700;font-style:italic;}
+        </style>
+        
+    <!-- end of fonts used in project -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="nav-link" href="../index.html">Back</a>
+    </nav>
+    <div class="container-fluid">
+        <section>
+            <h1 class="headtitle">echoVC Portfolio Management System</h1>
+            <div>
+                <p class="brief">echoVC, a Venture Capital company wanted a flexible platform for managing their wide portfolio of clients and investments. 
+                    Areas like report scheduling, dashboard sharing and portfolio company information management required better flow.
+                </p>
+            </div>
+            <div>
+                <img src="../assets/echovc/echovcisom.png"  alt="image">
+            </div>
+
+            <div>
+                    <h5>TEAM</h5>
+                    <p class="teammembers">Charles Dim - UI Designer || Janet John - Front-end Dev || McDonald Aladi, Abiodun Agbolade, Eniola Agboola - Back-end Dev</p>
+
+            </div>
+
+
+        </section>
+
+
+        <hr class="mainhr">
+        <div class="more">
+            
+                <h1 class="subtitle">Research</h1>
+                <div class="extradetails" >
+                <p class="researchdetail">Early phase research involved gathering information about their workplace heirarchy to determine
+                    user access and also have a good idea of current platforms both pms and otherwise
+                    being used by the company.
+                </p>
+                <h3>Pain points</h3>
+                <p class="researchdetail">Pain points expressed by stakeholders included the inability to forward reports to more than
+                    one portfolio company at a time which the software they were using at that time did not offer. Also expressed
+                    was the lack of a way to manage different fund periods. All these led to coming up with features for the platform and some include:
+                </p>
+                <h3>Suggested features</h3>
+                <p class="researchdetail">All these led to coming up with features for the platform and some of them include:
+                </p>
+                    <ul class="researchdetail features">
+                        <li>Report Scheduling to enable selection of more than one recepient at diferent receipt times</li>
+                        <li>Tabbed funding periods for a general view of events within that period</li>
+                        <li>Backup capability</li>
+                        <li>Investor relations to take notes</li>
+                        <li>Investee company management to ensure information is up to date</li>
+                        <li>Metric and KPI representation means</li>
+                        <li>Contacts management</li>
+                    </ul>
+                
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-sm">
+                        <figure>
+                            <img src="../assets/echovc/echovcnotes.jpg" alt="">
+                            <figcaption>echoVC notes</figcaption>
+                        </figure>
+                        
+                    </div>
+                </div>
+                
+        </section>
+        
+
+        <section class="more">
+            
+            <div class="screens">
+                <h1 class="subtitle">Screens</h1>
+                
+                
+                
+                <div class="row">
+                    <div class="col-sm">
+                        <h6 class="screenname">Home</h6>
+                        <img src="../assets/echovc/Home.png" alt="">
+                    </div>
+                    <div class="col-sm">
+                        <h6 class="screenname">Portfolio companies</h6>
+                        <img src="../assets/echovc/Companies.png" alt="">
+                    </div>
+                    
+                    <div class="col-sm">
+                        <h6 class="screenname">Schedule dialogs</h6>
+                        <img src="../assets/echovc/one-time and recurring scheduled reports.png" alt="" oncontextmenu="return false">
+
+                    </div>
+                    <div class="col-sm">
+                        <h6 class="screenname">Reports</h6>
+                        <img src="../assets/echovc/scheduled reports.png"   alt="" data-action="zoom">
+                    </div>
+                    <div class="col-sm">
+                        <h6  class="screenname">Contacts</h6>
+                        <img src="../assets/echovc/contacts.png"   alt="">
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="more">
+            <h1 class="subtitle">Styleguide</h1>
+            
+            <h5>colors</h5>
+            <hr>
+            <div class="row">
+                
+                
+                <div class="col-sm">
+                    <div class="colorblock">
+                        <span class="color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="60" height="60" rx="100" fill="#39406D"/>
+                            </svg>
+                            <span class="colordetails">
+                                <li class="colorname"> deep koamaru</li>
+                                <li>#39406D</li>
+                            </span>
+                        </span>
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+               
+                <div class="col-sm">
+                    <div class="colorblock">
+                        <span class="color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                                <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" fill="#FAFAFA" stroke="#888888"/>
+                                </svg>
+                            <span class="colordetails">
+                                <li class="colorname">snow</li>
+                                <li>#FAFAFA</li>
+                            </span>
+                        </span>
+                        
+                    </div>
+                    
+                 <!-- when using two gradient make sure their fill url match their respective linear gradient id and the two components must not 
+                 have similar names respectively    -->
+                    
+                </div>
+                <div class="col-sm">
+                    <div class="colorblock">
+                        <span class="color">
+                            <svg  width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="30" r="30" fill="url(#paint0_linear)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear" x1="30" y1="0" x2="30" y2="60" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#2E7CFF"/>
+                                <stop offset="1" stop-color="#1B63DC"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                            <span class="colordetails">
+                                <li class="colorname">blue gradient</li>
+                                <li>#2E7CFF, #1B63DC</li>
+                               
+                            </span>
+                        </span>
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="col-sm">
+                    <div class="colorblock">
+                        <span class="color">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+                                <circle cx="30" cy="30" r="30" fill="url(#paint1_linear)"/>
+                                <defs>
+                                <linearGradient id="paint1_linear" x1="30" y1="0" x2="30" y2="60" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#D54444"/>
+                                <stop offset="1" stop-color="#AD0C0C"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                            <span class="colordetails">
+                                <li class="colorname">red gradient</li>
+                                <li>#D54444, #AD0C0C</li>
+                               
+                            </span>
+                        </span>
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+                
+                
+                
+            </div>
+            
+            <h5>Typography</h5>
+            <hr>
+            <div class="row" >
+                
+                
+                <div class="col-sm" >
+                    <div class="firstfont" style="font-family: 'futura-pt', sans-serif;">
+                        <h6 class="firstfont" style="font-family: 'futura-pt', sans-serif;">FUTURA</h6>
+                        <li style="font-size: 28px;" > Headline text 28px Regular</li>
+                        <li style="font-size: 14px;" > Card title text 14px Medium</li>
+
+                    </div>
+                    
+                    <div class="secondfont" style="font-family: 'europa', sans-serif;">
+                        
+                        <h6  style="margin-top: 30px;" style="font-family: 'europa', sans-serif;">EUROPA</h6>
+                        <ul>
+                            <li style="font-size: 28px;">Page title 28px Regular</li>
+                            <li style="font-size: 24px;">Subheading 24px Regular</li>
+                            <li style="font-size: 18px;">Subheading 18px Regular</li>
+                            <li style="font-size: 12px;">Sidebar 12px Regular UPPERCASE</li>
+                            <li style="font-size: 14px;">Body 14px Regular</li>
+                            
+                        </ul>
+
+                    </div>
+                    
+                    
+
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

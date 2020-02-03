@@ -1,0 +1,12 @@
+.firstfont{
+    font-family: "futura-pt", sans-serif;
+}
+.secondfont{
+    font-family: 'europa' sans-serif;
+}
+.firstfont ul{
+    padding: 0;
+}
+.firstfont ul li{
+    margin-bottom: 16px;
+}

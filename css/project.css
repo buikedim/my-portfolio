@@ -4,14 +4,28 @@ html, body{
 	color: rgb(5, 5, 5);
 	height: 100%;
     overflow-x:hidden;
+
 }
 body{
     position: relative;
     padding-bottom: 50px;
 }
+.extradetails{
+    margin-left: 8%;
+    margin-right: 8%;
+}
 
-
-
+.researchdetail{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+.features li{
+    list-style-type: square;
+}
+ul{
+    list-style: circle;
+}
 img{
     width: 100%;
     height: auto;
