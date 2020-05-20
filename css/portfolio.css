@@ -6,6 +6,7 @@ html, body{
 	overflow-x:hidden;
 	scroll-behavior: smooth;
 	font-size: 18px;
+	overflow-y: scroll;
 }
 body{
 	position: relative;
@@ -143,13 +144,18 @@ display: inline-block;
 margin-bottom: 100px;
 }
 .intro{
-	margin-left: 50px;
+	/* margin-left: 50px; */
+}
+nav{
+	margin-left: -58px;
 }
 
 
 main{
 	font-family: 'Jost', sans-serif;
 	font-weight: 400;
+	margin-left: 60px;
+	padding-right: 40px;
 }
 /* p{
 	font-size: 1.7rem;
@@ -182,8 +188,8 @@ img{
 	object-fit:cover;
 }
 .row{
-	margin-left: 45px;
-	margin-right: 4px;
+	/* margin-left: 45px;
+	margin-right: 4px; */
 }
 .experiencesection{
 	margin-top: 30px;
@@ -409,3 +415,11 @@ display: none;
 		padding-top: 70px;
 	}
 }
+@media screen and (min-width: 0px) and (max-width: 400px) {
+	.chevron
+	{ display: block; }  /* show it on smaller screen */
+  }
+  @media screen and (min-width: 401px) and (max-width: 1024px) {
+	.chevron
+	{ display: none; }   /* hide it on larger screens */
+  }
