@@ -16,7 +16,7 @@ body{
 }
 
 .researchdetail{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 300;
     word-spacing: 2px;
 }
@@ -59,21 +59,21 @@ li{
 .color, .colordetails{
     vertical-align: middle;
     display: inline-block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Jost", sans-serif;
 }
 .colorblock{
     margin: 16px 0 16px 0;
 }
 .colorname{
-    font-weight: bold;
+    font-weight: 500;
     text-transform: capitalize;
 }
 .brief, .teammembers{
     margin-left: 8%;
     margin-right: 8%;
     margin-bottom: 50px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
     font-weight: 300;
     word-spacing: 2px;
 }
@@ -90,7 +90,7 @@ margin-top: 10px;
 h5{
     margin-left: 8%;
     margin-bottom: 12px;
-    margin-top: 30px;
+    margin-top: 4.5rem;
     text-transform: uppercase;
 }
 .mainhr{
@@ -128,6 +128,8 @@ hr{
 
 .screenname{
     margin-left: 2.5%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
 }
 
 /* Smartphones (landscape) ----------- */
