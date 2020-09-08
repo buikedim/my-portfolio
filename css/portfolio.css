@@ -11,8 +11,12 @@ body{
 	position: relative;
 }
 .move{
-	padding-left: 2%;
+	padding-left: 5%;
 	padding-right: 4%;
+}
+h2{
+	margin-top: 55px;
+	font-weight: lighter;
 }
 .header1{
 font-family: 'Lora', sans-serif;
@@ -22,7 +26,6 @@ font-family: 'Lora', sans-serif;
 	line-height: 1;
 	margin-top: 80px;
 	margin-bottom: 20px;
-	padding-left:2%;
 }
 
 ul{
@@ -141,6 +144,7 @@ header{
 text-align: left;
 display: inline-block;
 margin-bottom: 100px;
+padding-left: 5%;
 }
 .intro{
 	/* margin-left: 50px; */
@@ -421,4 +425,9 @@ display: none;
   @media screen and (min-width: 401px) and (max-width: 1024px) {
 	.chevron
 	{ display: none; }   /* hide it on larger screens */
+  }
+  @media screen and (max-width: 498px) and (min-width: 250px){
+.section-one {
+    margin-top: 2rem;
+}
   }
