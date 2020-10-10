@@ -19,7 +19,7 @@ h2{
 	font-weight: lighter;
 }
 .header1{
-font-family: 'Lora', sans-serif;
+font-family: 'Tinos', sans-serif;
 	font-weight: bold;
 
 	font-size: 75px;
@@ -34,7 +34,7 @@ ul{
 	line-height: 2;
 }
 .projectsh1, .experienceh1, .contacth1{
-	font-family: 'Lora', serif;
+	font-family: 'Tinos', serif;
 	font-size: 50px;
 	margin-bottom: 20px;
 	margin-top: 40px;
